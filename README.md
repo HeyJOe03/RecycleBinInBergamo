@@ -21,7 +21,7 @@ Back-end is based on NodeJS using the library Express.
 It is Developed first by Giovanni, and also use a SQL database to menage the requests
 
 The SQL contains 2 tables with the following fields:
-  -#utenti:
+  #utenti:
     -CF (fiscal code)
     -nome (name)
     -cognome (surname)
@@ -30,7 +30,7 @@ The SQL contains 2 tables with the following fields:
     -secco (quantity of bags for waste taken)
     -MAXplastica (max of bags for plastic)
     -MAXsecco (max of bags for waste)
-  -#bidoni
+  #bidoni
     -ID (progressive int)
     -plastica (bags for plastic)
     -secco (bags for waste)
