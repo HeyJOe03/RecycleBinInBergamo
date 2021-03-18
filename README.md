@@ -31,11 +31,11 @@ The SQL contains 2 tables with the following fields:
  - secco (quantity of bags for waste taken)
  - MAXplastica (max of bags for plastic)
  - MAXsecco (max of bags for waste)
- - 
+
 #bidoni
- -ID (progressive int)
- -plastica (bags for plastic)
- -secco (bags for waste)
+ - ID (progressive int)
+ - plastica (bags for plastic)
+ - secco (bags for waste)
     
     
     
