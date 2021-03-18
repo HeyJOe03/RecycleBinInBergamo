@@ -35,14 +35,14 @@ The SQL contains 2 tables with the following fields:
 #bidoni
  -ID (progressive int)
  -plastica (bags for plastic)
-    -secco (bags for waste)
+ -secco (bags for waste)
     
     
     
-  #NodeJS dependencies:
-    -express (to menage requests)
-    -nodemon  (to autoreload application after saving changes)
-    -mysql  (to talk with the SQL database)
-    -dotenv (to menage the .env file)
-    -body-parser (to convert request in json)
+ #NodeJS dependencies:
+    - express (to menage requests)
+    - nodemon  (to autoreload application after saving changes)
+    - mysql  (to talk with the SQL database)
+    - dotenv (to menage the .env file)
+    - body-parser (to convert request in json)
    
