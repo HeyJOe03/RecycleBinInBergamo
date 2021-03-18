@@ -1,6 +1,6 @@
 ## Project for school started on March 2021
 
-##### RecycleBinInBergamo
+#### RecycleBinInBergamo
 
 This project was developed between #11-2-2021 | 18-3-2021 by Carminati Giovanni e Belotti Davide
 
