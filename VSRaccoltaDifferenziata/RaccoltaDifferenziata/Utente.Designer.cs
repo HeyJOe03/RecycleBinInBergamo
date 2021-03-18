@@ -62,9 +62,9 @@ namespace RaccoltaDifferenziata
             this.Reg.AutoSize = true;
             this.Reg.Font = new System.Drawing.Font("Onyx", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Reg.ForeColor = System.Drawing.Color.DarkGreen;
-            this.Reg.Location = new System.Drawing.Point(139, 90);
+            this.Reg.Location = new System.Drawing.Point(156, 112);
             this.Reg.Name = "Reg";
-            this.Reg.Size = new System.Drawing.Size(101, 33);
+            this.Reg.Size = new System.Drawing.Size(120, 41);
             this.Reg.TabIndex = 0;
             this.Reg.Text = "Registrati";
             // 
@@ -73,9 +73,9 @@ namespace RaccoltaDifferenziata
             this.Acc.AutoSize = true;
             this.Acc.Font = new System.Drawing.Font("Onyx", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Acc.ForeColor = System.Drawing.Color.DarkGreen;
-            this.Acc.Location = new System.Drawing.Point(708, 90);
+            this.Acc.Location = new System.Drawing.Point(796, 112);
             this.Acc.Name = "Acc";
-            this.Acc.Size = new System.Drawing.Size(70, 33);
+            this.Acc.Size = new System.Drawing.Size(79, 41);
             this.Acc.TabIndex = 2;
             this.Acc.Text = "Accedi";
             // 
@@ -85,9 +85,9 @@ namespace RaccoltaDifferenziata
             this.Nom.BackColor = System.Drawing.Color.LightGreen;
             this.Nom.Font = new System.Drawing.Font("Onyx", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nom.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.Nom.Location = new System.Drawing.Point(50, 182);
+            this.Nom.Location = new System.Drawing.Point(56, 228);
             this.Nom.Name = "Nom";
-            this.Nom.Size = new System.Drawing.Size(181, 27);
+            this.Nom.Size = new System.Drawing.Size(236, 32);
             this.Nom.TabIndex = 3;
             this.Nom.Text = "Nome                                              ";
             // 
@@ -97,9 +97,9 @@ namespace RaccoltaDifferenziata
             this.cf.BackColor = System.Drawing.Color.LightGreen;
             this.cf.Font = new System.Drawing.Font("Onyx", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cf.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.cf.Location = new System.Drawing.Point(50, 370);
+            this.cf.Location = new System.Drawing.Point(56, 462);
             this.cf.Name = "cf";
-            this.cf.Size = new System.Drawing.Size(191, 27);
+            this.cf.Size = new System.Drawing.Size(231, 32);
             this.cf.TabIndex = 4;
             this.cf.Text = "Codice fiscale                               ";
             // 
@@ -109,9 +109,9 @@ namespace RaccoltaDifferenziata
             this.via.BackColor = System.Drawing.Color.LightGreen;
             this.via.Font = new System.Drawing.Font("Onyx", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.via.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.via.Location = new System.Drawing.Point(50, 311);
+            this.via.Location = new System.Drawing.Point(56, 389);
             this.via.Name = "via";
-            this.via.Size = new System.Drawing.Size(182, 27);
+            this.via.Size = new System.Drawing.Size(228, 32);
             this.via.TabIndex = 5;
             this.via.Text = "Indirizzo                                      ";
             // 
@@ -121,9 +121,9 @@ namespace RaccoltaDifferenziata
             this.Cogn.BackColor = System.Drawing.Color.LightGreen;
             this.Cogn.Font = new System.Drawing.Font("Onyx", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cogn.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.Cogn.Location = new System.Drawing.Point(50, 242);
+            this.Cogn.Location = new System.Drawing.Point(56, 302);
             this.Cogn.Name = "Cogn";
-            this.Cogn.Size = new System.Drawing.Size(179, 27);
+            this.Cogn.Size = new System.Drawing.Size(227, 32);
             this.Cogn.TabIndex = 6;
             this.Cogn.Text = "Cognome                                      ";
             // 
@@ -133,10 +133,10 @@ namespace RaccoltaDifferenziata
             this.Rnome.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Rnome.Font = new System.Drawing.Font("Perpetua", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Rnome.ForeColor = System.Drawing.Color.LightGreen;
-            this.Rnome.Location = new System.Drawing.Point(145, 197);
+            this.Rnome.Location = new System.Drawing.Point(163, 246);
             this.Rnome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Rnome.Name = "Rnome";
-            this.Rnome.Size = new System.Drawing.Size(166, 27);
+            this.Rnome.Size = new System.Drawing.Size(187, 33);
             this.Rnome.TabIndex = 8;
             // 
             // Codice
@@ -145,9 +145,9 @@ namespace RaccoltaDifferenziata
             this.Codice.BackColor = System.Drawing.Color.LightGreen;
             this.Codice.Font = new System.Drawing.Font("Onyx", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Codice.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.Codice.Location = new System.Drawing.Point(591, 182);
+            this.Codice.Location = new System.Drawing.Point(665, 228);
             this.Codice.Name = "Codice";
-            this.Codice.Size = new System.Drawing.Size(191, 27);
+            this.Codice.Size = new System.Drawing.Size(231, 32);
             this.Codice.TabIndex = 9;
             this.Codice.Text = "Codice fiscale                               ";
             // 
@@ -157,10 +157,10 @@ namespace RaccoltaDifferenziata
             this.Acodicefiscale.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Acodicefiscale.Font = new System.Drawing.Font("Perpetua", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Acodicefiscale.ForeColor = System.Drawing.Color.LightGreen;
-            this.Acodicefiscale.Location = new System.Drawing.Point(715, 197);
+            this.Acodicefiscale.Location = new System.Drawing.Point(804, 246);
             this.Acodicefiscale.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Acodicefiscale.Name = "Acodicefiscale";
-            this.Acodicefiscale.Size = new System.Drawing.Size(166, 27);
+            this.Acodicefiscale.Size = new System.Drawing.Size(187, 33);
             this.Acodicefiscale.TabIndex = 10;
             // 
             // Rcodicefiscale
@@ -169,10 +169,10 @@ namespace RaccoltaDifferenziata
             this.Rcodicefiscale.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Rcodicefiscale.Font = new System.Drawing.Font("Perpetua", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Rcodicefiscale.ForeColor = System.Drawing.Color.LightGreen;
-            this.Rcodicefiscale.Location = new System.Drawing.Point(145, 384);
+            this.Rcodicefiscale.Location = new System.Drawing.Point(163, 480);
             this.Rcodicefiscale.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Rcodicefiscale.Name = "Rcodicefiscale";
-            this.Rcodicefiscale.Size = new System.Drawing.Size(166, 27);
+            this.Rcodicefiscale.Size = new System.Drawing.Size(187, 33);
             this.Rcodicefiscale.TabIndex = 11;
             // 
             // Rindirizzo
@@ -181,10 +181,10 @@ namespace RaccoltaDifferenziata
             this.Rindirizzo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Rindirizzo.Font = new System.Drawing.Font("Perpetua", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Rindirizzo.ForeColor = System.Drawing.Color.LightGreen;
-            this.Rindirizzo.Location = new System.Drawing.Point(145, 326);
+            this.Rindirizzo.Location = new System.Drawing.Point(163, 408);
             this.Rindirizzo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Rindirizzo.Name = "Rindirizzo";
-            this.Rindirizzo.Size = new System.Drawing.Size(166, 27);
+            this.Rindirizzo.Size = new System.Drawing.Size(187, 33);
             this.Rindirizzo.TabIndex = 12;
             // 
             // Rcognome
@@ -193,39 +193,39 @@ namespace RaccoltaDifferenziata
             this.Rcognome.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Rcognome.Font = new System.Drawing.Font("Perpetua", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Rcognome.ForeColor = System.Drawing.Color.LightGreen;
-            this.Rcognome.Location = new System.Drawing.Point(145, 262);
+            this.Rcognome.Location = new System.Drawing.Point(163, 328);
             this.Rcognome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Rcognome.Name = "Rcognome";
-            this.Rcognome.Size = new System.Drawing.Size(166, 27);
+            this.Rcognome.Size = new System.Drawing.Size(187, 33);
             this.Rcognome.TabIndex = 13;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.OliveDrab;
-            this.pictureBox1.Location = new System.Drawing.Point(-5, 22);
+            this.pictureBox1.Location = new System.Drawing.Point(-6, 28);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(913, 20);
+            this.pictureBox1.Size = new System.Drawing.Size(1027, 25);
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.OliveDrab;
-            this.pictureBox2.Location = new System.Drawing.Point(-5, 455);
+            this.pictureBox2.Location = new System.Drawing.Point(-6, 569);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(257, 19);
+            this.pictureBox2.Size = new System.Drawing.Size(289, 24);
             this.pictureBox2.TabIndex = 16;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.OliveDrab;
-            this.pictureBox3.Location = new System.Drawing.Point(813, 455);
+            this.pictureBox3.Location = new System.Drawing.Point(915, 569);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(94, 19);
+            this.pictureBox3.Size = new System.Drawing.Size(106, 24);
             this.pictureBox3.TabIndex = 17;
             this.pictureBox3.TabStop = false;
             // 
@@ -233,10 +233,10 @@ namespace RaccoltaDifferenziata
             // 
             this.UserPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.UserPB.Image = global::RaccoltaDifferenziata.Properties.Resources.User;
-            this.UserPB.Location = new System.Drawing.Point(356, 222);
+            this.UserPB.Location = new System.Drawing.Point(400, 278);
             this.UserPB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UserPB.Name = "UserPB";
-            this.UserPB.Size = new System.Drawing.Size(298, 195);
+            this.UserPB.Size = new System.Drawing.Size(335, 244);
             this.UserPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.UserPB.TabIndex = 18;
             this.UserPB.TabStop = false;
@@ -246,10 +246,10 @@ namespace RaccoltaDifferenziata
             this.BTN_user.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.BTN_user.Font = new System.Drawing.Font("Onyx", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_user.ForeColor = System.Drawing.Color.LightGreen;
-            this.BTN_user.Location = new System.Drawing.Point(600, 433);
+            this.BTN_user.Location = new System.Drawing.Point(675, 541);
             this.BTN_user.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BTN_user.Name = "BTN_user";
-            this.BTN_user.Size = new System.Drawing.Size(196, 56);
+            this.BTN_user.Size = new System.Drawing.Size(220, 70);
             this.BTN_user.TabIndex = 19;
             this.BTN_user.Text = "Accedi";
             this.BTN_user.UseVisualStyleBackColor = false;
@@ -260,10 +260,10 @@ namespace RaccoltaDifferenziata
             this.BTN_registrazione.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.BTN_registrazione.Font = new System.Drawing.Font("Onyx", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_registrazione.ForeColor = System.Drawing.Color.LightGreen;
-            this.BTN_registrazione.Location = new System.Drawing.Point(268, 433);
+            this.BTN_registrazione.Location = new System.Drawing.Point(302, 541);
             this.BTN_registrazione.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BTN_registrazione.Name = "BTN_registrazione";
-            this.BTN_registrazione.Size = new System.Drawing.Size(196, 56);
+            this.BTN_registrazione.Size = new System.Drawing.Size(220, 70);
             this.BTN_registrazione.TabIndex = 20;
             this.BTN_registrazione.Text = "Registrati";
             this.BTN_registrazione.UseVisualStyleBackColor = false;
@@ -272,28 +272,28 @@ namespace RaccoltaDifferenziata
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.OliveDrab;
-            this.pictureBox4.Location = new System.Drawing.Point(481, 455);
+            this.pictureBox4.Location = new System.Drawing.Point(541, 569);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(94, 19);
+            this.pictureBox4.Size = new System.Drawing.Size(106, 24);
             this.pictureBox4.TabIndex = 21;
             this.pictureBox4.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(142, 44);
+            this.label1.Font = new System.Drawing.Font("Onyx", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(522, 55);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.Size = new System.Drawing.Size(0, 36);
             this.label1.TabIndex = 22;
-            this.label1.Text = "label1";
             // 
             // Utente
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.YellowGreen;
-            this.ClientSize = new System.Drawing.Size(906, 498);
+            this.ClientSize = new System.Drawing.Size(1019, 622);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.BTN_registrazione);

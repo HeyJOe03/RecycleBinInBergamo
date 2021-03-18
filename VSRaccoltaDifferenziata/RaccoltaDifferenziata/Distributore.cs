@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net.Http;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace RaccoltaDifferenziata
 {
@@ -16,7 +18,7 @@ namespace RaccoltaDifferenziata
     public partial class Distributore : Form
     {
         private const string urlPrendiSacchi = "http://localhost:3000/prendiSacchi";
-
+        private const string path = "./Scontrino.txt";
         public Distributore()
         {
             InitializeComponent();
@@ -57,8 +59,22 @@ namespace RaccoltaDifferenziata
                     string result = response.Content.ReadAsStringAsync().Result;
 
                     label4.Text = result;
-                }
-
+                    Program.utente = JsonConvert.DeserializeObject<Dictionary<string, string>>(result);
+                        if (File.Exists(path))
+                        {
+                            using (StreamWriter sw = File.AppendText(path))
+                            {
+                                sw.WriteLine("---------------------------------------------------");
+                                sw.WriteLine("ID cassonetto: " + Program.distr.ToString());
+                                sw.WriteLine("Codice Fiscale: " + Program.utente["CF"]);
+                                sw.WriteLine("-Nome: " + Program.utente["nome"]);
+                                sw.WriteLine("-Cognome: " + Program.utente["cognome"]);
+                                sw.WriteLine("-Indirizzo: " + Program.utente["indirizzo"]);
+                                sw.WriteLine("-Sacchi plastica ritirati: " + Text_plastica.Text + "/" + Program.utente["MAXplastica"]);
+                                sw.WriteLine("-Sacchi secco ritirati: " + Text_secco.Text + "/" + Program.utente["MAXsecco"]);
+                                sw.WriteLine("---------------------------------------------------");
+                            }  
+                        }
 
             }
             catch(Exception exception)

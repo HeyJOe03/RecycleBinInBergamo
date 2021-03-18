@@ -75,7 +75,7 @@ namespace RaccoltaDifferenziata
             fam = fam - min3;
             secco = secco * fam + 10 * min3;
 
-            ciromario.Text = "secco: " + secco + " plastica: " + plastica;
+            //ciromario.Text = "secco: " + secco + " plastica: " + plastica;
 
             Program.utente["MAXplastica"] = plastica.ToString();
             Program.utente["MAXsecco"] = secco.ToString();

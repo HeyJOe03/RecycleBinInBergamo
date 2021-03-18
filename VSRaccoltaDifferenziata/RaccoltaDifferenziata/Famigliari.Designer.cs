@@ -39,7 +39,6 @@ namespace RaccoltaDifferenziata
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.pictureBoxfamily = new System.Windows.Forms.PictureBox();
             this.BTNAvanti = new System.Windows.Forms.Button();
-            this.ciromario = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxfamily)).BeginInit();
             this.SuspendLayout();
             // 
@@ -175,22 +174,12 @@ namespace RaccoltaDifferenziata
             this.BTNAvanti.UseVisualStyleBackColor = false;
             this.BTNAvanti.Click += new System.EventHandler(this.BTN_famigliari_Click);
             // 
-            // ciromario
-            // 
-            this.ciromario.AutoSize = true;
-            this.ciromario.Location = new System.Drawing.Point(80, 335);
-            this.ciromario.Name = "ciromario";
-            this.ciromario.Size = new System.Drawing.Size(45, 20);
-            this.ciromario.TabIndex = 9;
-            this.ciromario.Text = "lalala";
-            // 
             // Famigliari
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaGreen;
             this.ClientSize = new System.Drawing.Size(1025, 532);
-            this.Controls.Add(this.ciromario);
             this.Controls.Add(this.BTNAvanti);
             this.Controls.Add(this.pictureBoxfamily);
             this.Controls.Add(this.comboBox5);
@@ -220,6 +209,5 @@ namespace RaccoltaDifferenziata
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.PictureBox pictureBoxfamily;
         private System.Windows.Forms.Button BTNAvanti;
-        private System.Windows.Forms.Label ciromario;
     }
 }
