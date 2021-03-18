@@ -34,10 +34,10 @@ namespace RaccoltaDifferenziata
             if (Rcodicefiscale.Text != "" && Rnome.Text != "" && Rcognome.Text != "" && Rindirizzo.Text != "")
             {
 
-                Program.utente["CF"] = Rcodicefiscale.Text;
-                Program.utente["nome"] = Rnome.Text;
-                Program.utente["cognome"] = Rcognome.Text;
-                Program.utente["indirizzo"] = Rindirizzo.Text;
+                Program.utente["CF"] = Rcodicefiscale.Text.ToUpper();
+                Program.utente["nome"] = Rnome.Text.ToUpper();
+                Program.utente["cognome"] = Rcognome.Text.ToUpper();
+                Program.utente["indirizzo"] = Rindirizzo.Text.ToUpper();
                 Famigliari m = new Famigliari();
                 m.ShowDialog();
 
@@ -72,7 +72,7 @@ namespace RaccoltaDifferenziata
             {
                 using (var client = new HttpClient())
                 {
-                    string jsonRequest = "{\"CF\":\"" + Acodicefiscale.Text +"\"}";
+                    string jsonRequest = "{\"CF\":\"" + Acodicefiscale.Text.ToUpper() + "\"}";
                     //label1.Text = jsonRequest;
                     var response = await client.PostAsync(
                          urlAccedi,
@@ -81,7 +81,7 @@ namespace RaccoltaDifferenziata
                     string result = response.Content.ReadAsStringAsync().Result;
 
                     //altrimenti ritorna tutta la tabella
-                    if (result == "{\"Message\" : \"Bad query\"}") { label1.Text = "Il codice fiscale non è registrato"; }
+                    if (result == "{\"Message\":\"Bad query\"}") { label1.Text = "Il codice fiscale non è registrato"; }
                     //else if (true) label1.Text = result;
                     else
                     {

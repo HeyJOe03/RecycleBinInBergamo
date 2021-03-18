@@ -60,24 +60,25 @@ namespace RaccoltaDifferenziata
 
                     label4.Text = result;
                     Program.utente = JsonConvert.DeserializeObject<Dictionary<string, string>>(result);
-                        if (File.Exists(path))
+                    //if (File.Exists(path))
+                    //{
+                        using (StreamWriter sw = new StreamWriter(path)) 
                         {
-                            using (StreamWriter sw = File.AppendText(path))
-                            {
-                                sw.WriteLine("---------------------------------------------------");
-                                sw.WriteLine("ID cassonetto: " + Program.distr.ToString());
-                                sw.WriteLine("Codice Fiscale: " + Program.utente["CF"]);
-                                sw.WriteLine("-Nome: " + Program.utente["nome"]);
-                                sw.WriteLine("-Cognome: " + Program.utente["cognome"]);
-                                sw.WriteLine("-Indirizzo: " + Program.utente["indirizzo"]);
-                                sw.WriteLine("-Sacchi plastica ritirati: " + Text_plastica.Text + "/" + Program.utente["MAXplastica"]);
-                                sw.WriteLine("-Sacchi secco ritirati: " + Text_secco.Text + "/" + Program.utente["MAXsecco"]);
-                                sw.WriteLine("---------------------------------------------------");
-                            }  
+                            sw.WriteLine("---------------------------------------------------");
+                            sw.WriteLine("ID cassonetto: " + Program.distr.ToString());
+                            sw.WriteLine("Codice Fiscale: " + Program.utente["CF"]);
+                            sw.WriteLine("-Nome: " + Program.utente["nome"]);
+                            sw.WriteLine("-Cognome: " + Program.utente["cognome"]);
+                            sw.WriteLine("-Indirizzo: " + Program.utente["indirizzo"]);
+                            sw.WriteLine("-Sacchi plastica ritirati: " + Text_plastica.Text + "/" + Program.utente["MAXplastica"]);
+                            sw.WriteLine("-Sacchi secco ritirati: " + Text_secco.Text + "/" + Program.utente["MAXsecco"]);
+                            sw.WriteLine("---------------------------------------------------");
                         }
+                    //}
 
+                }
             }
-            catch(Exception exception)
+            catch (Exception exception)
             {
                 label4.Text = "Errore nei campi, inserire numeri di sacchi e riprovare";
             }

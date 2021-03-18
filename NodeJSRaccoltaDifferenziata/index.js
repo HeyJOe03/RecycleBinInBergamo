@@ -76,7 +76,7 @@ app.post('/fillBidoni', (req,res) => {
 });
 
 app.post('/prendiSacchi',(req,res) => {
-    console.log(req.body);
+    //console.log(req.body);
     let sql = `SELECT * FROM bidoni WHERE ID = '${req.body.ID}';`;
     db.query(sql, (err,result) => {
         if (err) res.json(badQuery);
